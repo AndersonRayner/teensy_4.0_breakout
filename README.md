@@ -6,4 +6,4 @@ Breakout Board for the Teensy 4.0.  Breaks out
 - 2 x I2C Ports
 - 3 x PWM / ADC
 
-![Teensy 4.0 Breakout Board](./Images/teensy_4.0_breakout.png.png "Teensy 4.0 Breakout Board")
+![Teensy 4.0 Breakout Board](./Images/teensy_4.0_breakout.png "Teensy 4.0 Breakout Board")
