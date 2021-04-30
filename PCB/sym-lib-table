@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name teensy)(type Legacy)(uri C:/Users/matt/Documents/AFA/PCBs/lib/teensy_library/teensy.lib)(options "")(descr ""))
+  (lib (name ARCL)(type Legacy)(uri C:/Users/matt/Documents/AFA/PCBs/lib/kicad/libraries/ARCL.lib)(options "")(descr ""))
+)
