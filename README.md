@@ -1,5 +1,5 @@
 # Teensy 4.0 Breakout
-Breakout Board for the Teensy 4.0. 
+Breakout Board for the Teensy 4.0. The connectors are designed to match the Pixhawk standard connectors, making it easy to interface with different sensors.
 
 Features:
 - 6 - 36 V Input
