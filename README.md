@@ -1,5 +1,7 @@
 # Teensy 4.0 Breakout
-Breakout Board for the Teensy 4.0.  Breaks out
+Breakout Board for the Teensy 4.0. 
+
+Features:
 - 6 - 36 V Input
 - 2 x Serial ports
 - 1 x SPI with 2x CS
