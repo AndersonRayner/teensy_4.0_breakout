@@ -8,4 +8,8 @@ Features:
 - 2 x I2C Ports
 - 3 x PWM / ADC
 
-![Teensy 4.0 Breakout Board](./Images/teensy_4.0_breakout.png "Teensy 4.0 Breakout Board")
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AndersonRayner/teensy_4.0_breakout/master/Images/featured.png" width="400" >
+</p>
+
