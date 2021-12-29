@@ -10,6 +10,6 @@ Features:
 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AndersonRayner/teensy_4.0_breakout/master/Images/featured.png" width="400" >
+  <img src="Images/featured.png" width="400" >
 </p>
 
