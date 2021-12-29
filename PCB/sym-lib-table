@@ -1,4 +1,6 @@
 (sym_lib_table
-  (lib (name teensy)(type Legacy)(uri C:/Users/matt/Documents/AFA/PCBs/lib/teensy_library/teensy.lib)(options "")(descr ""))
-  (lib (name ARCL)(type Legacy)(uri C:/Users/matt/Documents/AFA/PCBs/lib/kicad/libraries/ARCL.lib)(options "")(descr ""))
+  (lib (name teensy)(type Legacy)(uri ${KIPRJMOD/lib/teensy_library/teensy.lib)(options "")(descr ""))
+  (lib (name pololu)(type Legacy)(uri ${KIPRJMOD}/lib/kicad-libraries/libraries/pololu.lib)(options "")(descr ""))
+  (lib (name other)(type Legacy)(uri ${KIPRJMOD}/lib/kicad-libraries/libraries/other.lib)(options "")(descr ""))
+  (lib (name ardusimple)(type Legacy)(uri ${KIPRJMOD}/lib/kicad-libraries/libraries/ardusimple.lib)(options "")(descr ""))
 )

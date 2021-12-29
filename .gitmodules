@@ -1,3 +1,12 @@
 [submodule "Software/gpsTest/TinyGPSPlus"]
 	path = Software/gpsTest/TinyGPSPlus
 	url = https://github.com/mikalhart/TinyGPSPlus.git
+[submodule "PCB/lib/kicad-libraries"]
+	path = PCB/lib/kicad-libraries
+	url = https://github.com/AndersonRayner/kicad-libraries.git
+[submodule "PCB/lib/teensy.pretty"]
+	path = PCB/lib/teensy.pretty
+	url = https://github.com/XenGi/teensy.pretty.git
+[submodule "PCB/lib/teensy_library"]
+	path = PCB/lib/teensy_library
+	url = https://github.com/XenGi/teensy_library.git

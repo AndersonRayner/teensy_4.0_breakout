@@ -68,12 +68,14 @@ Wire Wire Line
 Wire Wire Line
 	2700 3150 2850 3150
 $Comp
-L ARCL:3-way_power_jumper J16
+L other:3-way_power_jumper J?
 U 1 1 5FD3A514
 P 3200 2350
+AR Path="/5FD3A514" Ref="J?"  Part="1" 
+AR Path="/5FD33A77/5FD3A514" Ref="J16"  Part="1" 
 F 0 "J16" V 3204 2538 50  0000 L CNN
 F 1 "3-way_power_jumper" V 3295 2538 50  0000 L CNN
-F 2 "ARCL:3-way_power_jumper" H 3200 2100 50  0001 C CNN
+F 2 "other:3-way_power_jumper" H 3200 2100 50  0001 C CNN
 F 3 "" H 3200 2350 50  0001 C CNN
 	1    3200 2350
 	0    1    1    0   
@@ -96,12 +98,14 @@ Wire Wire Line
 Wire Wire Line
 	2700 2750 3200 2750
 $Comp
-L ARCL:3-way_power_jumper J17
+L other:3-way_power_jumper J?
 U 1 1 5FD3A52B
 P 3150 5400
+AR Path="/5FD3A52B" Ref="J?"  Part="1" 
+AR Path="/5FD33A77/5FD3A52B" Ref="J17"  Part="1" 
 F 0 "J17" V 3154 5588 50  0000 L CNN
 F 1 "3-way_power_jumper" V 3245 5588 50  0000 L CNN
-F 2 "ARCL:3-way_power_jumper" H 3150 5150 50  0001 C CNN
+F 2 "other:3-way_power_jumper" H 3150 5150 50  0001 C CNN
 F 3 "" H 3150 5400 50  0001 C CNN
 	1    3150 5400
 	0    1    1    0   
@@ -270,10 +274,10 @@ F 3 "~" H 8250 3450 50  0001 C CNN
 $EndComp
 NoConn ~ 8550 3650
 $Comp
-L power:Earth #PWR0139
+L power:Earth #PWR0138
 U 1 1 5FDD8137
 P 8900 4050
-F 0 "#PWR0139" H 8900 3800 50  0001 C CNN
+F 0 "#PWR0138" H 8900 3800 50  0001 C CNN
 F 1 "Earth" H 8900 3900 50  0001 C CNN
 F 2 "" H 8900 4050 50  0001 C CNN
 F 3 "~" H 8900 4050 50  0001 C CNN
@@ -289,10 +293,10 @@ Wire Wire Line
 Wire Wire Line
 	8700 3450 8700 2800
 $Comp
-L power:+5V #PWR0140
+L power:+5V #PWR0139
 U 1 1 5FDDC527
 P 8700 2800
-F 0 "#PWR0140" H 8700 2650 50  0001 C CNN
+F 0 "#PWR0139" H 8700 2650 50  0001 C CNN
 F 1 "+5V" H 8715 2973 50  0000 C CNN
 F 2 "" H 8700 2800 50  0001 C CNN
 F 3 "" H 8700 2800 50  0001 C CNN

@@ -70,27 +70,27 @@ F 3 "~" H 4750 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ARCL:3-way_power_jumper J?
+L other:3-way_power_jumper J?
 U 1 1 5FD48E56
 P 5650 4300
 AR Path="/5FD48E56" Ref="J?"  Part="1" 
 AR Path="/5FD1CCC5/5FD48E56" Ref="J11"  Part="1" 
 F 0 "J11" V 5654 4488 50  0000 L CNN
 F 1 "3-way_power_jumper" V 5745 4488 50  0000 L CNN
-F 2 "ARCL:3-way_power_jumper" H 5650 4050 50  0001 C CNN
+F 2 "other:3-way_power_jumper" H 5650 4050 50  0001 C CNN
 F 3 "" H 5650 4300 50  0001 C CNN
 	1    5650 4300
 	0    1    1    0   
 $EndComp
 $Comp
-L ARCL:3-way_power_jumper J?
+L other:3-way_power_jumper J?
 U 1 1 5FD48E5C
 P 5650 1900
 AR Path="/5FD48E5C" Ref="J?"  Part="1" 
 AR Path="/5FD1CCC5/5FD48E5C" Ref="J10"  Part="1" 
 F 0 "J10" V 5654 2088 50  0000 L CNN
 F 1 "3-way_power_jumper" V 5745 2088 50  0000 L CNN
-F 2 "ARCL:3-way_power_jumper" H 5650 1650 50  0001 C CNN
+F 2 "other:3-way_power_jumper" H 5650 1650 50  0001 C CNN
 F 3 "" H 5650 1900 50  0001 C CNN
 	1    5650 1900
 	0    1    1    0   

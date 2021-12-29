@@ -1,40 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# ARCL_3-way_power_jumper
-#
-DEF ARCL_3-way_power_jumper J 0 40 Y Y 1 F N
-F0 "J" 0 300 50 H V C CNN
-F1 "ARCL_3-way_power_jumper" 0 250 50 H V C CNN
-F2 "ARCL:3-way_power_jumper" 0 -250 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -200 150 300 -150 0 1 0 N
-X V_out 1 400 0 100 L 50 50 1 1 I
-X In1 2 -300 100 100 R 50 50 1 1 I
-X In2 3 -300 0 100 R 50 50 1 1 I
-X In3 4 -300 -100 100 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# ARCL_Pololu_D24V22Fx
-#
-DEF ARCL_Pololu_D24V22Fx U 0 40 Y Y 1 F N
-F0 "U" 0 350 50 H V C CNN
-F1 "ARCL_Pololu_D24V22Fx" 0 -300 50 H V C CNN
-F2 "ARCL:Pololu_D24V22Fx" 0 -400 50 H I C CNN
-F3 "" 0 -400 50 H I C CNN
-DRAW
-S -350 250 400 -250 0 1 16 N
-X V_IN 1 -450 150 100 R 50 50 1 1 W
-X EN 2 -450 50 100 R 50 50 1 1 P
-X PG 3 -450 -50 100 R 50 50 1 1 P
-X GND 4 -450 -150 100 R 50 50 1 1 P
-X GND 5 500 -150 100 L 50 50 1 1 P
-X V_OUT 6 500 150 100 L 50 50 1 1 w
-ENDDRAW
-ENDDEF
-#
 # Connector_Conn_01x02_Male
 #
 DEF Connector_Conn_01x02_Male J 0 40 Y N 1 F N
@@ -188,6 +154,40 @@ $FPLIST
 $ENDFPLIST
 DRAW
 C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
+# other_3-way_power_jumper
+#
+DEF other_3-way_power_jumper J 0 40 Y Y 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "other_3-way_power_jumper" 0 250 50 H V C CNN
+F2 "other:3-way_power_jumper" 0 -250 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -200 150 300 -150 0 1 0 N
+X V_out 1 400 0 100 L 50 50 1 1 I
+X In1 2 -300 100 100 R 50 50 1 1 I
+X In2 3 -300 0 100 R 50 50 1 1 I
+X In3 4 -300 -100 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# pololu_Pololu_D24V22Fx
+#
+DEF pololu_Pololu_D24V22Fx U 0 40 Y Y 1 F N
+F0 "U" 0 350 50 H V C CNN
+F1 "pololu_Pololu_D24V22Fx" 0 -300 50 H V C CNN
+F2 "pololu:Pololu_D24V22Fx_THT" 0 -400 50 H I C CNN
+F3 "" 0 -400 50 H I C CNN
+DRAW
+S -350 250 400 -250 0 1 16 N
+X V_IN 1 -450 150 100 R 50 50 1 1 W
+X EN 2 -450 50 100 R 50 50 1 1 P
+X PG 3 -450 -50 100 R 50 50 1 1 P
+X GND 4 -450 -150 100 R 50 50 1 1 P
+X GND 5 500 -150 100 L 50 50 1 1 P
+X V_OUT 6 500 150 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
