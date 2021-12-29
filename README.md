@@ -13,3 +13,14 @@ Features:
   <img src="Images/featured.png" width="400" >
 </p>
 
+Make sure to clone recursively!
+```
+git clone https://github.com/AndersonRayner/teensy_4.0_breakout.git --recursive
+```
+
+## Usage
+- As the connectors are matching the Pixhawk standard, using the 0.1" headers means you can reverse plug! 
+- Power for each of the output rails can be selected using the jumpers (between 3V3 and 5V)
+
+## Contributions
+As always, PRs are welcome!
